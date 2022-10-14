@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maxmum-scale=1, user-scale">
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="css/contato.css">
+</head>
+
+<body>
+        
+    <div id="main-container">
+        
+        <div id="address-container">
+            
+            <div class="fade"></div>
+            <div id="address-content">
+                <h2>
+                    <ion-icon name="navigate-outline"></ion-icon>Endereço
+                </h2>
+                <p>R. Tito, 54 - Vila Romana, São Paulo - SP, 05051-000</p>
+                <h2>
+                    <ion-icon name="call-outline"></ion-icon>Telefone
+                </h2>
+                <p>(11) 2888-5500</p>
+                <h2>
+                    <ion-icon name="mail-outline"></ion-icon>E-mail
+                </h2>
+                <p>lapatito@sp.senac.br</p>
+            </div>
+        </div>
+        
+        <div id="form-container">
+            <h2>Nos mande uma mensagem!</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" name="name" placeholder="Digite seu nome">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" placeholder="Digite seu e-mail">
+                <label for="phone">Telefone:</label>
+                <input type="text" name="phone" placeholder="Digite seu telefone">
+                <label for="msg">Sua mensagem:</label>
+                <textarea name="msg" placeholder="Como podemos te ajudar?"></textarea>
+                <input type="submit" value="Enviar mensagem">
+                
+                <div class="btn-voltar"><a href="index.html"> Voltar</a></div>
+            </form>
+        </div>
+    </div>
+
+    <style>
+        .btn-voltar{
+            text-align: center;width: 100%; 
+        }
+
+        .btn-voltar a{
+            background-color: #8f4f06;
+                color: #fff;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+                width: 300px;
+                padding: 10px 50px;
+                margin: 30px auto;
+                border: 2px solid transparent;
+                transition: .5s;
+                text-decoration: none;
+                
+        }
+        .btn-voltar a:hover{
+            border-color: #8f4f06;
+    color: #8f4f06;
+    background-color: #fff;
+        }
+    </style>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+
+</html>
+
